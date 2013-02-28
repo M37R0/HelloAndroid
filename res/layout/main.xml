@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical">
+	<TextView 
+		android:id="@+id/new_TextView"
+	  	android:text="@string/hello" 
+	  	android:layout_height="wrap_content" 
+	  	android:layout_width="wrap_content" />
+	<Button 
+		android:text="Button" 
+		android:id="@+id/new_button" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" />
+	<Button 
+		android:text="Button" 
+		android:id="@+id/new_button2" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" />
+	<SlidingDrawer android:id="@+id/slidingDrawer1" android:layout_width="fill_parent" android:layout_height="100dp" android:handle="@+id/handle" android:content="@+id/content">
+		<Button android:layout_height="wrap_content" android:text="Handle" android:layout_width="fill_parent" android:id="@+id/handle"></Button>
+		<LinearLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent">
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button91"></Button>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button92"></Button>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button93"></Button>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button94"></Button>
+		</LinearLayout>
+	</SlidingDrawer>
+	<HorizontalScrollView android:id="@+id/horizontalScrollView1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout2" android:layout_height="match_parent">
+			<TextView android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="TextView"></TextView>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button1"></Button>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button2"></Button>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button3"></Button>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button4"></Button>
+			<Spinner android:layout_width="400dp" android:layout_height="wrap_content" android:id="@+id/spinner3"></Spinner>
+			<ToggleButton android:layout_width="wrap_content" android:text="ToggleButton" android:layout_height="wrap_content" android:id="@+id/toggleButton3"></ToggleButton>
+			<CheckedTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/checkedTextView1" android:text="CheckedTextView"></CheckedTextView>
+			<Spinner android:layout_width="250dp" android:layout_height="wrap_content" android:id="@+id/spinner2"></Spinner>
+			<RadioButton android:text="RadioButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radioButton1"></RadioButton>
+			<Spinner android:layout_width="250dp" android:layout_height="wrap_content" android:id="@+id/spinner1"></Spinner>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button5"></Button>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button10"></Button>
+			<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CheckBox" android:id="@+id/checkBox2"></CheckBox>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button6"></Button>
+			<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CheckBox" android:id="@+id/checkBox1"></CheckBox>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button7"></Button>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button8"></Button>
+			<ToggleButton android:layout_width="wrap_content" android:text="ToggleButton" android:layout_height="wrap_content" android:id="@+id/toggleButton1"></ToggleButton>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button9"></Button>
+			<ToggleButton android:layout_width="wrap_content" android:text="ToggleButton" android:layout_height="wrap_content" android:id="@+id/toggleButton2"></ToggleButton>
+		</LinearLayout>
+	</HorizontalScrollView>
+	<ScrollView  android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/scrollView1" android:scrollbars="horizontal|vertical">
+		<LinearLayout android:layout_height="match_parent" android:orientation="vertical" android:layout_width="match_parent" android:id="@+id/linearLayout1" android:scrollbars="horizontal">
+			<TextView android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="TextView"></TextView>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button1"></Button>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button2"></Button>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button3"></Button>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button4"></Button>
+			<Spinner android:layout_width="400dp" android:layout_height="wrap_content" android:id="@+id/spinner3"></Spinner>
+			<ToggleButton android:layout_width="wrap_content" android:text="ToggleButton" android:layout_height="wrap_content" android:id="@+id/toggleButton3"></ToggleButton>
+			<CheckedTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/checkedTextView1" android:text="CheckedTextView"></CheckedTextView>
+			<Spinner android:layout_width="250dp" android:layout_height="wrap_content" android:id="@+id/spinner2"></Spinner>
+			<RadioButton android:text="RadioButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radioButton1"></RadioButton>
+			<Spinner android:layout_width="250dp" android:layout_height="wrap_content" android:id="@+id/spinner1"></Spinner>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button5"></Button>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button10"></Button>
+			<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CheckBox" android:id="@+id/checkBox2"></CheckBox>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button6"></Button>
+			<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CheckBox" android:id="@+id/checkBox1"></CheckBox>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button7"></Button>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button8"></Button>
+			<ToggleButton android:layout_width="wrap_content" android:text="ToggleButton" android:layout_height="wrap_content" android:id="@+id/toggleButton1"></ToggleButton>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:id="@+id/button9"></Button>
+			<ToggleButton android:layout_width="wrap_content" android:text="ToggleButton" android:layout_height="wrap_content" android:id="@+id/toggleButton2"></ToggleButton>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
