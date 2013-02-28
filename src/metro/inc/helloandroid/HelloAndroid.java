@@ -15,6 +15,8 @@ import android.widget.Toast;
 public class HelloAndroid extends Activity implements OnClickListener
 {
 	private static File m_AppPathRoot = null; 
+
+    // "KryoTest Branch"
 	
     /** Called when the activity is first created. */
 	@Override public void onCreate(Bundle savedInstanceState)
@@ -23,7 +25,7 @@ public class HelloAndroid extends Activity implements OnClickListener
 		
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        //Change in file
+
         // Get handle to a button
         Button lButton1 = (Button)findViewById(R.id.new_button);
         Button lButton2 = (Button)findViewById(R.id.new_button2);
