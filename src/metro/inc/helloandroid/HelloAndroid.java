@@ -23,7 +23,7 @@ public class HelloAndroid extends Activity implements OnClickListener
 		
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        
+        //Change in file
         // Get handle to a button
         Button lButton1 = (Button)findViewById(R.id.new_button);
         Button lButton2 = (Button)findViewById(R.id.new_button2);
